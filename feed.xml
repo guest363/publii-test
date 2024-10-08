@@ -3,32 +3,60 @@
     <title>kraken-blog</title>
     <link href="https://guest363.github.io/publii-test/feed.xml" rel="self" />
     <link href="https://guest363.github.io/publii-test" />
-    <updated>2024-10-08T14:14:31+03:00</updated>
+    <updated>2024-10-08T22:12:14+03:00</updated>
     <author>
         <name>Oleg</name>
     </author>
     <id>https://guest363.github.io/publii-test</id>
 
     <entry>
-        <title>Preview</title>
+        <title>🥳 Preview</title>
         <author>
             <name>Oleg</name>
         </author>
         <link href="https://guest363.github.io/publii-test/preview.html"/>
         <id>https://guest363.github.io/publii-test/preview.html</id>
+            <category term="test"/>
+            <category term="preview"/>
+            <category term="awesom_tag"/>
 
         <updated>2024-10-08T14:14:31+03:00</updated>
             <summary>
                 <![CDATA[
-                    <p>When editing a page, in addition to the standard options available for post editing, you have a crucial option, the '<strong>Parent page</strong>' dropdown menu in the right sidebar. This menu allows you to designate whether a page will be a parent or child of another page. By selecting any existing page as the parent for the current page, you can create a hierarchical structure for your site, which helps organize complex navigation systems.</p>
+                    <p>When editing a page, in addition to the standard options available for post editing, you have a crucial option, the '<strong>Parent page</strong>' 😊 dropdown menu in the right sidebar. This menu allows you to designate whether a page will be a parent or child of another page. By selecting any existing page as the parent for the current page, you can create a hierarchical structure for your site, which helps organize complex navigation systems.</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>When editing a page, in addition to the standard options available for post editing, you have a crucial option, the '<strong>Parent page</strong>' dropdown menu in the right sidebar. This menu allows you to designate whether a page will be a parent or child of another page. By selecting any existing page as the parent for the current page, you can create a hierarchical structure for your site, which helps organize complex navigation systems.</p>
+                <p>When editing a page, in addition to the standard options available for post editing, you have a crucial option, the '<strong>Parent page</strong>' 😊 dropdown menu in the right sidebar. This menu allows you to designate whether a page will be a parent or child of another page. By selecting any existing page as the parent for the current page, you can create a hierarchical structure for your site, which helps organize complex navigation systems.</p>
 
-<p>Starting from <a href="https://getpublii.com/blog/release-046.html">version 0.46</a>, Publii CMS includes a feature for creating pages, which serve as static subpages on your website. The process for creating and editing pages is almost identical to that of <a href="https://getpublii.com/docs/adding-editing-and-deleting-posts.html">posts</a>, so you'll feel right at home!  You can choose any editor you like, whether the versatile Block Editor, the powerful Markdown Editor, or the user-friendly WYSIWYG Editor, to add your content to the page.</p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
+<figure class="gallery__item"><a href="https://guest363.github.io/publii-test/media/posts/1/gallery/Vstavlennoe-izobrazhenie.png" data-size="1280x720"><img loading="lazy" src="https://guest363.github.io/publii-test/media/posts/1/gallery/Vstavlennoe-izobrazhenie-thumbnail.webp" alt="" width="768" height="432"></a></figure>
+<figure class="gallery__item"><a href="https://guest363.github.io/publii-test/media/posts/1/gallery/Vstavlennoe-izobrazhenie-2.png" data-size="2048x1365"><img loading="lazy" src="https://guest363.github.io/publii-test/media/posts/1/gallery/Vstavlennoe-izobrazhenie-2-thumbnail.webp" alt="" width="768" height="512"></a></figure>
+<figure class="gallery__item"><a href="https://guest363.github.io/publii-test/media/posts/1/gallery/Vstavlennoe-izobrazhenie-3.png" data-size="1200x800"><img loading="lazy" src="https://guest363.github.io/publii-test/media/posts/1/gallery/Vstavlennoe-izobrazhenie-3-thumbnail.webp" alt="" width="768" height="512"></a></figure>
+</div></div>
+<p>Starting from <a href="https://getpublii.com/blog/release-046.html">version 0.46</a>, Publii CMS includes a feature for creating pages, which serve as static subpages on your website. The process for creating and editing pages is almost identical to that of <a href="https://getpublii.com/docs/adding-editing-and-deleting-posts.html">posts</a>, so you'll feel right at home!  You can choose any editor you like, whether the versatile Block Editor, the powerful Markdown Editor, or the user-friendly WYSIWYG Editor, to add your content to the page.</p>
+<pre class="language-javascript"><code>// Menu
+document.addEventListener('DOMContentLoaded', () =&gt; {
+	const toggleButton = document.querySelector('.navbar__toggle');
+	const menu = document.querySelector('.navbar__menu');
+
+	if (toggleButton &amp;&amp; menu) {
+		 toggleButton.addEventListener('click', () =&gt; {
+			  const isMenuActive = menu.classList.contains('is-active');
+
+			  menu.classList.toggle('is-active', !isMenuActive);
+			  menu.classList.toggle('is-hidden', isMenuActive);
+			  toggleButton.classList.toggle('is-active', !isMenuActive);
+
+			  // Update the aria-expanded attribute
+			  toggleButton.setAttribute('aria-expanded', !isMenuActive);
+		 });
+	}
+});
+</code></pre>
+<p> </p>
             ]]>
         </content>
     </entry>
