@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>kraken-blog</title>
+    <link href="https://guest363.github.io/publii-test/feed.xml" rel="self" />
+    <link href="https://guest363.github.io/publii-test" />
+    <updated>2024-10-08T14:14:31+03:00</updated>
+    <author>
+        <name>Oleg</name>
+    </author>
+    <id>https://guest363.github.io/publii-test</id>
+
+    <entry>
+        <title>Preview</title>
+        <author>
+            <name>Oleg</name>
+        </author>
+        <link href="https://guest363.github.io/publii-test/preview.html"/>
+        <id>https://guest363.github.io/publii-test/preview.html</id>
+
+        <updated>2024-10-08T14:14:31+03:00</updated>
+            <summary>
+                <![CDATA[
+                    <p>When editing a page, in addition to the standard options available for post editing, you have a crucial option, the '<strong>Parent page</strong>' dropdown menu in the right sidebar. This menu allows you to designate whether a page will be a parent or child of another page. By selecting any existing page as the parent for the current page, you can create a hierarchical structure for your site, which helps organize complex navigation systems.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>When editing a page, in addition to the standard options available for post editing, you have a crucial option, the '<strong>Parent page</strong>' dropdown menu in the right sidebar. This menu allows you to designate whether a page will be a parent or child of another page. By selecting any existing page as the parent for the current page, you can create a hierarchical structure for your site, which helps organize complex navigation systems.</p>
+
+<p>Starting from <a href="https://getpublii.com/blog/release-046.html">version 0.46</a>, Publii CMS includes a feature for creating pages, which serve as static subpages on your website. The process for creating and editing pages is almost identical to that of <a href="https://getpublii.com/docs/adding-editing-and-deleting-posts.html">posts</a>, so you'll feel right at home!  You can choose any editor you like, whether the versatile Block Editor, the powerful Markdown Editor, or the user-friendly WYSIWYG Editor, to add your content to the page.</p>
+            ]]>
+        </content>
+    </entry>
+</feed>
