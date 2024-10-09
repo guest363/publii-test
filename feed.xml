@@ -3,7 +3,7 @@
     <title>kraken-blog</title>
     <link href="https://guest363.github.io/publii-test/feed.xml" rel="self" />
     <link href="https://guest363.github.io/publii-test" />
-    <updated>2024-10-08T22:12:14+03:00</updated>
+    <updated>2024-10-08T22:16:07+03:00</updated>
     <author>
         <name>Oleg</name>
     </author>
@@ -14,8 +14,8 @@
         <author>
             <name>Oleg</name>
         </author>
-        <link href="https://guest363.github.io/publii-test/preview.html"/>
-        <id>https://guest363.github.io/publii-test/preview.html</id>
+        <link href="https://guest363.github.io/publii-test/preview/index.html"/>
+        <id>https://guest363.github.io/publii-test/preview/index.html</id>
             <category term="test"/>
             <category term="preview"/>
             <category term="awesom_tag"/>
